@@ -20,7 +20,7 @@ DATA_PATH = PATH.joinpath("../datasets").resolve()
 #
 df_fresh = pd.read_pickle(DATA_PATH.joinpath('peel_fersk'))
 df_6mnd = pd.read_pickle(DATA_PATH.joinpath('peel_6mnd'))
-df = pd.read_pickle(DATA_PATH.joinpath('peel_all_coded'))
+df = pd.read_pickle(DATA_PATH.joinpath('peel_all_code'))
 #
 #
 #
